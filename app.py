@@ -1,4 +1,4 @@
-
+import imp
 from turtle import pos
 import streamlit as st
 import pickle
@@ -43,7 +43,12 @@ if st.button('Recommend'):
         st.image(poster[0])
        
 
-        
+        if st.button("home"):
+            print("sdkfjaslkf")
+            # url = 'https://www.streamlit.io/'
+            # print("dskjfs")
+            # webbrowser.open_new_tab(url)
+
 
     with col2:
         st.text(name[1])
